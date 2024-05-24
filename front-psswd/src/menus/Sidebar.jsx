@@ -86,9 +86,75 @@ const Sidebar = ({ projectId, setProjectSelected }) => {
         >
           Settings
         </NavLink>
+        {/* <h2 className="px-3 py-1 text-lg text-gray-800 font-semibold border-b border-gray-300">
+          <b>Services</b>
+        </h2> */}
+
+        
+
+
+
+
+
+        <h2 className="px-3 py-1 text-lg text-gray-800 font-semibold border-b border-gray-300">
+          <b>mobile</b>
+        </h2>
+        <NavLink
+          to={`/project/${projectId}/update`}
+          className="block py-2 px-3 rounded hover:bg-gray-300"
+        >
+          Update
+        </NavLink>
+        <NavLink
+          to={`/project/${projectId}/help`}
+          className="block py-2 px-3 rounded hover:bg-gray-300"
+        >
+          Help
+        </NavLink>
+        <NavLink
+          to={`/project/${projectId}/settings`}
+          className="block py-2 px-3 rounded hover:bg-gray-300"
+        >
+          Settings
+        </NavLink>
+        {/* <h2 className="px-3 py-1 text-lg text-gray-800 font-semibold border-b border-gray-300">
+          <b>Services</b>
+        </h2> */}
+
+
+
+
+         
+        <h2 className="px-3 py-1 text-lg text-gray-800 font-semibold border-b border-gray-300">
+          <b>web</b>
+        </h2>
+        <NavLink
+          to={`/project/${projectId}/update`}
+          className="block py-2 px-3 rounded hover:bg-gray-300"
+        >
+          Update
+        </NavLink>
+        <NavLink
+          to={`/project/${projectId}/help`}
+          className="block py-2 px-3 rounded hover:bg-gray-300"
+        >
+          Help
+        </NavLink>
+        <NavLink
+          to={`/project/${projectId}/settings`}
+          className="block py-2 px-3 rounded hover:bg-gray-300"
+        >
+          Settings
+        </NavLink>
         <h2 className="px-3 py-1 text-lg text-gray-800 font-semibold border-b border-gray-300">
           <b>Services</b>
         </h2>
+        
+
+
+
+
+        
         <NavLink
           to={`/project/${projectId}/details_S`}
           className="block py-2 px-3 rounded hover:bg-gray-300"
